@@ -1,53 +1,35 @@
-# vue3-start-kit
-Easy Start Kit for vue3
+# vue3startkitjs
 
-Contains the following packages and has completed the operation test
+This template should help get you started developing with Vue 3 in Vite.
 
-```
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
 ```
-```
+
+### Compile and Hot-Reload for Development
+
+```sh
 npm run dev
 ```
 
-``eslint``
-``prettier``
-``axios``
-``tailwindCSS`` 
-``pinia``
-``vueRouter``
-``vueUse``
-``vueMotion``
-installed
+### Compile and Minify for Production
 
-.eslintrc.cjs and tailwind CSS, mian.js operation for vueMotion is complete.
-Need to edit settings.json in vscode to avoid conflict
-
-```
-setting.json
-
-  "eslint.codeActionsOnSave.rules": null,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "html",
-    "vue",
-    "markdown"
-  ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
+```sh
+npm run build
 ```
 
-vite port setup 
-``host: 127.0.0.1``
-``port: 3000``
-in package.json
+### Lint with [ESLint](https://eslint.org/)
 
-
-
-
-
-
+```sh
+npm run lint
+```
