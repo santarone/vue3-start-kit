@@ -40,3 +40,14 @@ setting.json
     "source.fixAll.eslint": true
   },
 ```
+
+vite port setup 
+``host: 127.0.0.1``
+``port: 3000``
+in package.json
+
+
+
+
+
+
