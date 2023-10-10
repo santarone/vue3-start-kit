@@ -1,4 +1,4 @@
-Easy Start Kit for vue3
+Easy Start Kit for vue3 JS
 
 Contains the following packages and has completed the operation test
 ```
